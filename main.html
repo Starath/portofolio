@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .anjay {
+            width: 250px;
+            border-radius: 5px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+        }
+
+        .data {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .info {
+            display: grid;
+            width: 250px;
+            margin-top: 15px;
+            grid-template-rows : 20px 20px ;
+            font-size: 15px;
+            row-gap: 5px;
+            background-color: lightblue;
+            border-radius: 4px;
+            border: 1px solid rgba(29, 200, 55, 1);
+            padding: 10px 20px; 
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+        }
+        .container {
+            display: grid;
+            align-content: center;
+            grid-template-columns: auto auto;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        /* Media query for smaller screens */
+        @media (max-width: 600px) {
+            .container {
+                grid-template-columns: 1fr; /* Single column on small screens */
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <h1>My Portofolio</h1>
+    <hr>
+    <div class="data">
+        <img class='anjay' src="Img/fotoganteng.jpg">
+
+        <div class="info">
+            <div>
+                Nama : Athian Nugraha Muarajuang
+            </div>
+            <div>
+                Jurusan : Teknik Informatika
+            </div>
+        </div>
+    </div>
+    <h2 class="data">Deskripsi</h2>
+    <p style="text-align: center;">Athian adalah mahasiswa sarjana dari Fakultas
+    Sekolah Teknik Elektro dan Informatika di Institut
+    Teknologi Bandung, berjurusan di Teknik Informatika. Dia 
+    antusias dengan <strong>programming.</strong>
+    </p>
+    <div class="container">
+        <div class="subcontainer">
+            <h3>Minat</h3>
+            <p>Berminat di back-end engineer</p>
+        </div>
+        <div class="subcontainer">
+            <h3>Bakat</h3>
+            <p>Problem Solving</p>
+        </div>
+    </div>
+    <div>
+        <h3>Projek yang Dikerjakan</h3>
+        <li>Berkontribusi membuat game <a href="https://github.com/Labpro-21/if1210-2024-tubes-k05-c" title="github">OWCA</a></li>
+        <img src="Img/UI_OWCA.png" height="200" alt="UI game OWCA">
+        <img src="Img/Battle.png" height="200" alt="UI game OWCA">
+        <img src="Img/Shop.png" height="200" alt="Toko OWCA">
+    </div>
+    <div>
+        <h3>Pencapaian</h3>
+        <p>Menjadi Staff of The Month bidang IT pada bulan April tahun 2024 di OGG</p>
+    </div>
+    <footer>
+        <h4>Contact</h4>
+        <p><a href="athianbintang@gmail.com">athianbintang@gmail.com</a></p>
+    </footer>
+</body>
+</html>
