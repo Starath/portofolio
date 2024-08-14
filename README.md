@@ -17,6 +17,7 @@ Portofolio ini menggunakan HTML dan CSS
 # Kesulitan yang dihadapi
 Bingung dalam planning
 
+# Identitas
 Athian Nugraha Muarajuang
 19623055
 Teknik Informatika 
